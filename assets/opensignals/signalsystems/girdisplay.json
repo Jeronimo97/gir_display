@@ -1,0 +1,76 @@
+{
+    "systemProperties": {
+        "placementToolName": "signplacementtool",
+        "canLink": true,
+        "defaultHeight": 0
+    },
+    "seProperties": [
+        {
+            "name": "gir_display_type",
+            "enumClass": "GIR_DISPLAY_TYPE",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "gir_display_holding",
+            "enumClass": "GIR_DISPLAY_HOLDING",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "gir_display_time_hour",
+            "enumClass": "GIR_DISPLAY_TIME_HOUR",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        },
+        {
+            "name": "gir_display_time_minute",
+            "enumClass": "GIR_DISPLAY_TIME_MINUTE",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        },
+        {
+            "name": "gir_display_time_dp",
+            "defaultState": false,
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true 
+        },
+        {
+            "name": "gir_display_platform",
+            "enumClass": "GIR_DISPLAY_PLATFORM",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        },
+        {
+            "name": "gir_display_train",
+            "enumClass": "GIR_DISPLAY_TRAIN",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        },
+        {
+            "name": "gir_display_destination",
+            "enumClass": "GIR_DISPLAY_DESTINATION",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        },
+        {
+            "name": "gir_display_information",
+            "enumClass": "GIR_DISPLAY_INFORMATION",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        },
+        {
+            "name": "gir_display_stops",
+            "enumClass": "GIR_DISPLAY_STOPS",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true
+        }
+    ]
+}

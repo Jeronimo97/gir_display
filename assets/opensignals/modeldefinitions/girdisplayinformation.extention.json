@@ -1,0 +1,19 @@
+{
+    "extention": {
+        "OFF": "opensignals:blocks/gir_display/information/off",
+        "AUSFALL": "opensignals:blocks/gir_display/information/ausfall",
+        "GLEIS1": "opensignals:blocks/gir_display/information/gleis1",
+        "GLEIS2": "opensignals:blocks/gir_display/information/gleis2",
+        "GLEIS3": "opensignals:blocks/gir_display/information/gleis3",
+        "GLEIS4": "opensignals:blocks/gir_display/information/gleis4",
+        "GLEIS5": "opensignals:blocks/gir_display/information/gleis5",
+        "GLEIS6": "opensignals:blocks/gir_display/information/gleis6",
+        "GLEIS7": "opensignals:blocks/gir_display/information/gleis7",
+        "GLEIS8": "opensignals:blocks/gir_display/information/gleis8",
+        "GLEIS9": "opensignals:blocks/gir_display/information/gleis9",
+        "GLEIS10": "opensignals:blocks/gir_display/information/gleis10",
+        "VERSPATUNG5": "opensignals:blocks/gir_display/information/verspaetung5",
+        "VERSPATUNG10": "opensignals:blocks/gir_display/information/verspaetung10",
+        "VERSPATUNG15": "opensignals:blocks/gir_display/information/verspaetung15"
+    }
+}

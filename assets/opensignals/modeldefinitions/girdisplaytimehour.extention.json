@@ -1,0 +1,29 @@
+{
+    "extention": {
+        "OFF": "opensignals:blocks/gir_display/time/off",
+        "Z0": "opensignals:blocks/gir_display/time/0",
+        "Z1": "opensignals:blocks/gir_display/time/1",
+        "Z2": "opensignals:blocks/gir_display/time/2",
+        "Z3": "opensignals:blocks/gir_display/time/3",
+        "Z4": "opensignals:blocks/gir_display/time/4",
+        "Z5": "opensignals:blocks/gir_display/time/5",
+        "Z6": "opensignals:blocks/gir_display/time/6",
+        "Z7": "opensignals:blocks/gir_display/time/7",
+        "Z8": "opensignals:blocks/gir_display/time/8",
+        "Z9": "opensignals:blocks/gir_display/time/9",
+        "Z10": "opensignals:blocks/gir_display/time/10",
+        "Z11": "opensignals:blocks/gir_display/time/11",
+        "Z12": "opensignals:blocks/gir_display/time/12",
+        "Z13": "opensignals:blocks/gir_display/time/13",
+        "Z14": "opensignals:blocks/gir_display/time/14",
+        "Z15": "opensignals:blocks/gir_display/time/15",
+        "Z16": "opensignals:blocks/gir_display/time/16",
+        "Z17": "opensignals:blocks/gir_display/time/17",
+        "Z18": "opensignals:blocks/gir_display/time/18",
+        "Z19": "opensignals:blocks/gir_display/time/19",
+        "Z20": "opensignals:blocks/gir_display/time/20",
+        "Z21": "opensignals:blocks/gir_display/time/21",
+        "Z22": "opensignals:blocks/gir_display/time/22",
+        "Z23": "opensignals:blocks/gir_display/time/23"
+    }
+}

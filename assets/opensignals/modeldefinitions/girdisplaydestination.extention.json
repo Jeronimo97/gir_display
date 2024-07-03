@@ -1,0 +1,14 @@
+{
+    "extention": {
+        "OFF": "opensignals:blocks/gir_display/destination/off",
+        "ZUGDURCHFAHRT": "opensignals:blocks/gir_display/destination/zugdurchfahrt",
+        "SONDERFAHRT": "opensignals:blocks/gir_display/destination/sonderfahrt",
+        "BITTE_NICHT_EINSTEIGEN": "opensignals:blocks/gir_display/destination/bitte_nicht_einsteigen",
+        "PRESSLAU": "opensignals:blocks/gir_display/destination/presslau",
+        "ROEDAU_HBF": "opensignals:blocks/gir_display/destination/roedau_hbf",
+        "BAD_SPENCER": "opensignals:blocks/gir_display/destination/bad_spencer",
+        "SANKT_PRIEL": "opensignals:blocks/gir_display/destination/sankt_priel",
+        "TERENCEBERG": "opensignals:blocks/gir_display/destination/terenceberg",
+        "ROEDAU_FLUGHAFEN": "opensignals:blocks/gir_display/destination/roedau_flughafen"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "extention": {
+        "OFF": "opensignals:blocks/gir_display/platform/off",
+        "P1": "opensignals:blocks/gir_display/platform/1",
+        "P1A": "opensignals:blocks/gir_display/platform/1a",
+        "P1B": "opensignals:blocks/gir_display/platform/1b",
+        "P2": "opensignals:blocks/gir_display/platform/2",
+        "P2A": "opensignals:blocks/gir_display/platform/2a",
+        "P2B": "opensignals:blocks/gir_display/platform/2b",
+        "P3": "opensignals:blocks/gir_display/platform/3",
+        "P3A": "opensignals:blocks/gir_display/platform/3a",
+        "P3B": "opensignals:blocks/gir_display/platform/3b",
+        "P4": "opensignals:blocks/gir_display/platform/4",
+        "P4A": "opensignals:blocks/gir_display/platform/4a",
+        "P4B": "opensignals:blocks/gir_display/platform/4b",
+        "P5": "opensignals:blocks/gir_display/platform/5",
+        "P5A": "opensignals:blocks/gir_display/platform/5a",
+        "P5B": "opensignals:blocks/gir_display/platform/5b",
+        "P6": "opensignals:blocks/gir_display/platform/6",
+        "P6A": "opensignals:blocks/gir_display/platform/6a",
+        "P6B": "opensignals:blocks/gir_display/platform/6b",
+        "P7": "opensignals:blocks/gir_display/platform/7",
+        "P7A": "opensignals:blocks/gir_display/platform/7a",
+        "P7B": "opensignals:blocks/gir_display/platform/7b",
+        "P8": "opensignals:blocks/gir_display/platform/8",
+        "P8A": "opensignals:blocks/gir_display/platform/8a",
+        "P8B": "opensignals:blocks/gir_display/platform/8b",
+        "P9": "opensignals:blocks/gir_display/platform/9",
+        "P9A": "opensignals:blocks/gir_display/platform/9a",
+        "P9B": "opensignals:blocks/gir_display/platform/9b",
+        "P10": "opensignals:blocks/gir_display/platform/10"
+    }
+}

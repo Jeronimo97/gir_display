@@ -1,0 +1,6 @@
+{
+    "extention": {
+        "OFF": "opensignals:blocks/gir_display/stops/off",
+        "ENDE": "opensignals:blocks/gir_display/stops/ende"
+    }
+}

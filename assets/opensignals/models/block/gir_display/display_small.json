@@ -1,0 +1,307 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "opensignals:blocks/gir_display/darkblue",
+		"1": "opensignals:blocks/gir_display/gray",
+		"2": "opensignals:blocks/gir_display/display",
+		"stops": "opensignals:blocks/gir_display/stops/off",
+		"particle": "opensignals:blocks/gir_display/darkblue",
+		"time_hour": "opensignals:blocks/gir_display/time/off",
+		"time_minute": "opensignals:blocks/gir_display/time/off",
+		"platform": "opensignals:blocks/gir_display/platform/off",
+		"train": "opensignals:blocks/gir_display/train/off",
+		"destination": "opensignals:blocks/gir_display/destination/off",
+		"information": "opensignals:blocks/gir_display/information/off",
+		"time_dp": "opensignals:blocks/gir_display/time/off"
+	},
+	"elements": [
+		{
+			"name": "frame",
+			"from": [14, 3, 5],
+			"to": [16, 13, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-16, 3, 5],
+			"to": [-14, 13, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-14, 3, 5],
+			"to": [14, 5, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-14, 11, 5],
+			"to": [14, 13, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-14, 3, 6],
+			"to": [14, 5, 10],
+			"faces": {
+				"down": {"uv": [0, 0, 14, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [14, 3, 6],
+			"to": [16, 13, 10],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 10], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 10], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-14, 11, 6],
+			"to": [14, 13, 10],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-16, 3, 6],
+			"to": [-14, 13, 10],
+			"faces": {
+				"west": {"uv": [0, 0, 2, 10], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 10], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-16, 3, 10],
+			"to": [-14, 13, 11],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-14, 11, 10],
+			"to": [14, 13, 11],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [-14, 3, 10],
+			"to": [14, 5, 11],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "frame",
+			"from": [14, 3, 10],
+			"to": [16, 13, 11],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "display",
+			"from": [-14, 5, 6],
+			"to": [14, 11, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 6], "texture": "#2"},
+				"south": {"uv": [0, 0, 14, 6], "texture": "#2"}
+			}
+		},
+		{
+			"name": "time_hour",
+			"from": [11.5, 8.5, 5.9],
+			"to": [14, 11, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 9, 9], "texture": "#time_hour"}
+			}
+		},
+		{
+			"name": "time_minute",
+			"from": [8.5, 8.5, 5.9],
+			"to": [11, 11, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 9, 9], "texture": "#time_minute"}
+			}
+		},
+		{
+			"name": "time",
+			"from": [11, 8.5, 5.9],
+			"to": [11.5, 11, 5.9],
+			"faces": {
+				"north": {"uv": [0.25, 0, 2.75, 9], "texture": "#time_dp"}
+			}
+		},
+		{
+			"name": "platform",
+			"from": [-13.5, 5.5, 5.9],
+			"to": [-8.5, 10.5, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 9, 9], "texture": "#platform"}
+			}
+		},
+		{
+			"name": "train",
+			"from": [9, 6, 5.9],
+			"to": [14, 8, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 4.5], "texture": "#train"}
+			}
+		},
+		{
+			"name": "information",
+			"from": [-8, 9.25, 5.9],
+			"to": [8, 11, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1.83333], "texture": "#information"}
+			}
+		},
+		{
+			"name": "destination",
+			"from": [-8, 5, 5.9],
+			"to": [8, 7.5, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2.25], "texture": "#destination"}
+			}
+		},
+		{
+			"name": "stops",
+			"from": [-8, 7.5, 5.9],
+			"to": [8, 9.25, 5.9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1.83333], "texture": "#stops"}
+			}
+		},
+		{
+			"name": "time_hour",
+			"from": [-14, 8.5, 10.1],
+			"to": [-11.5, 11, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 9, 9], "texture": "#time_hour"}
+			}
+		},
+		{
+			"name": "time_minute",
+			"from": [-11, 8.5, 10.1],
+			"to": [-8.5, 11, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 9, 9], "texture": "#time_minute"}
+			}
+		},
+		{
+			"name": "time",
+			"from": [-11.5, 8.5, 10.1],
+			"to": [-11, 11, 10.1],
+			"faces": {
+				"south": {"uv": [0.25, 0, 2.75, 9], "texture": "#time_dp"}
+			}
+		},
+		{
+			"name": "platform",
+			"from": [8.5, 5.5, 10.1],
+			"to": [13.5, 10.5, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 9, 9], "texture": "#platform"}
+			}
+		},
+		{
+			"name": "train",
+			"from": [-14, 6, 10.1],
+			"to": [-9, 8, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 10, 4.5], "texture": "#train"}
+			}
+		},
+		{
+			"name": "information",
+			"from": [-8, 9.25, 10.1],
+			"to": [8, 11, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 1.83333], "texture": "#information"}
+			}
+		},
+		{
+			"name": "destination",
+			"from": [-8, 5, 10.1],
+			"to": [8, 7.5, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 2.25], "texture": "#destination"}
+			}
+		},
+		{
+			"name": "stops",
+			"from": [-8, 7.5, 10.1],
+			"to": [8, 9.25, 10.1],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 1.83333], "texture": "#stops"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "frame",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+		},
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+		},
+		{
+			"name": "oben",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "unten",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": []
+		}
+	]
+}

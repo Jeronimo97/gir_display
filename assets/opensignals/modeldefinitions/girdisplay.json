@@ -1,0 +1,55 @@
+{
+    "textures": {},
+    "models": {
+        "gir_display/holding_down": {
+            "textures": [
+                {
+                    "blockstate": "with(gir_display_type.SMALL) && with(gir_display_holding.DOWN)"
+                }
+            ]
+        },
+        "gir_display/holding_up": {
+            "textures": [
+                {
+                    "blockstate": "with(gir_display_type.SMALL) && with(gir_display_holding.UP)"
+                }
+            ]
+        },
+        "gir_display/display_small": {
+            "textures": [
+                {
+                    "blockstate": "with(gir_display_type.SMALL)",
+                    "extentions": {
+                        "girdisplaytimehour.json": {
+                            "GIR_DISPLAY_TIME_HOUR": "time_hour"
+                        },
+                        "girdisplaytimeminute.json": {
+                            "GIR_DISPLAY_TIME_MINUTE": "time_minute"
+                        },
+                        "girdisplayplatform.json": {
+                            "GIR_DISPLAY_PLATFORM": "platform"
+                        },
+                        "girdisplaytrain.json": {
+                            "GIR_DISPLAY_TRAIN": "train"
+                        },
+                        "girdisplaydestination.json": {
+                            "GIR_DISPLAY_DESTINATION": "destination"
+                        },
+                        "girdisplayinformation.json": {
+                            "GIR_DISPLAY_INFORMATION": "information"
+                        },
+                        "girdisplaystops.json": {
+                            "GIR_DISPLAY_STOPS": "stops"
+                        }
+                    }
+                },
+                {
+                    "blockstate": "with(gir_display_type.SMALL) && hasandis(GIR_DISPLAY_TIME_DP)",
+                    "retexture": {
+                        "time_dp": "opensignals:blocks/gir_display/time/dp"
+                    }
+                }
+            ]
+        }
+    }
+}
